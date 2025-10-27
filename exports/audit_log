@@ -1,0 +1,5 @@
+audit_id,table_name,event,rows_affected,details,created_at
+1,customers,INSERT,4339,Loaded customers,2025-10-27 15:29:01.992462
+2,products,INSERT,3665,Loaded products,2025-10-27 15:29:01.992462
+3,orders,INSERT,18536,Loaded orders,2025-10-27 15:29:01.992462
+4,order_items,INSERT,397924,Loaded order items,2025-10-27 15:29:01.992462
