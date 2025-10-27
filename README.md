@@ -87,7 +87,7 @@ This project demonstrates how to manage **ETL workflows entirely in SQL**, showc
 **PostgreSQL 17** • **pgAdmin 4** • **SQL** • **Kaggle E-commerce Dataset**
 
 ---
-###📦 Git LFS & .gitattributes
+### 📦 Git LFS & .gitattributes
 
 This project uses Git Large File Storage (LFS) to efficiently manage and version control large data files such as exported CSVs and SQL dump files.
 
