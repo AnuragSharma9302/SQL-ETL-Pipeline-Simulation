@@ -50,8 +50,11 @@ SQL-ETL-Pipeline-Simulation/
 ### 📦 Folder Breakdown
 Folder	Description
 data/	      :  Contains raw Kaggle datasets used as input for ETL.
+
 scripts/	  : Holds SQL scripts for table creation, transformation, loading, and automation                     (triggers, procedures).
+
 exports/	  : Includes final cleaned and production-ready tables exported from PostgreSQL.
+
 validation/ : Contains SQL validation and testing queries for verifying ETL results.
 
 ---
