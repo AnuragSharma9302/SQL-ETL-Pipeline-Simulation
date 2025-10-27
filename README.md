@@ -23,7 +23,7 @@ A compact **SQL-based ETL Pipeline** built using **PostgreSQL** and **pgAdmin**,
 
 ## 🧰 Project Structure  
 
-
+```bash
 SQL-ETL-Pipeline-Simulation/
 │
 ├── 📁 data/               # Raw Kaggle dataset (CSV files)
@@ -45,6 +45,7 @@ SQL-ETL-Pipeline-Simulation/
 │
 ├── README.md              # Project documentation
 └── LICENSE                # Open-source license
+```
 ---
 ### 📦 Folder Breakdown
 Folder	Description
