@@ -21,6 +21,40 @@ A compact **SQL-based ETL Pipeline** built using **PostgreSQL** and **pgAdmin**,
 
 ---
 
+## 🧰 Project Structure  
+
+```bash
+SQL-ETL-Pipeline-Simulation/
+│
+├── 📁 data/               # Raw Kaggle dataset (CSV files)
+│   └── ecommerce_data.csv
+│
+├── 📁 scripts/            # SQL scripts used for ETL (DDL, DML, triggers, audits)
+│   ├── create_tables.sql
+│   ├── transform_data.sql
+│   ├── load_production.sql
+│   └── audit_triggers.sql
+│
+├── 📁 exports/            # Final exported cleaned & validated production tables
+│   ├── production_customers.csv
+│   ├── production_orders.csv
+│   └── etl_logs.csv
+│
+├── 📁 validation/         # SQL queries for verification & data quality checks
+│   └── etl_validation_queries.sql
+│
+├── README.md              # Project documentation
+└── LICENSE                # Open-source license
+---
+📦 Folder Breakdown
+Folder	Description
+data/	      :  Contains raw Kaggle datasets used as input for ETL.
+scripts/	  : Holds SQL scripts for table creation, transformation, loading, and automation                     (triggers, procedures).
+exports/	  : Includes final cleaned and production-ready tables exported from PostgreSQL.
+validation/ : Contains SQL validation and testing queries for verifying ETL results.
+
+---
+
 ### 💡 **Why It Matters**
 This project demonstrates how to manage **ETL workflows entirely in SQL**, showcasing:
 - Handling **real-world data issues** (encoding, nulls, outliers).  
